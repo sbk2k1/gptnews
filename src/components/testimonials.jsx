@@ -16,7 +16,7 @@ export const Testimonials = (props) => {
             <div className="row">
 
               <p style={{marginBottom: 25}}>Why donate to me? I don't know. Absolutely no reason at all. Better equipments maybe?</p>
-              <a
+              <a href="#donate"
                 style={{marginBottom: -45, width: "20%"}}
                 className='btn btn-custom btn-lg page-scroll'
                 onClick={() => {navigator.clipboard.writeText("7439753613@ybl"); setCopied("Copied!"); setTimeout(() => {setCopied("Copy My UPI ID")}, 600)}}
